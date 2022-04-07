@@ -2,7 +2,7 @@
   "name": "react-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://jairosanchezb.com",
+  "homepage":"https://jairosanchezb.com",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
     "@testing-library/jest-dom": "^5.16.3",
