@@ -55,16 +55,28 @@ textarea {
     color: var(--color-white);
 }
 
+/* Scroll Down */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
 /* Media Queries */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
     .container.contact__container{
         width: var(--container-width-sm);
     }

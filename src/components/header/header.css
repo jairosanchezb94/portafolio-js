@@ -65,13 +65,13 @@ header {
 
 /* Media Queries */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
     .header {
        height: 100vh;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .header {
         height: 100vh;
     }
