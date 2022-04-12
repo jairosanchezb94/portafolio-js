@@ -6,7 +6,6 @@ import {BsGithub} from 'react-icons/bs'
 const About = () => {
   return (
    <section id="about">
-      <h5>Conóceme</h5>
       <h2>Sobre Mi</h2>
 
       <div className="container about__container">

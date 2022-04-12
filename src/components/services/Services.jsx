@@ -5,7 +5,6 @@ import {GoCheck} from 'react-icons/go'
 const Services = () => {
   return (
     <section id="services">
-      <h5>Lo que he hecho</h5>
       <h2>Labores realizadas</h2>
 
       <div className="container labors__container">

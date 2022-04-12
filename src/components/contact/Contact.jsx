@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import './contact.css'
 import {MdOutlineMailOutline} from 'react-icons/md'
@@ -19,8 +21,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Contacto</h5>
-      <h2>¿Quieres contactarme?</h2>  
+      <h2>Contacto</h2> 
 
       <div className="container contact__container"> 
         <div className="contact__options">

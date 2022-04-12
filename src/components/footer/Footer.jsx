@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
 import {BsLinkedin, BsGithub, BsTwitter} from 'react-icons/bs'
@@ -7,7 +8,6 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">Jairo Sánchez</a>
-
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>

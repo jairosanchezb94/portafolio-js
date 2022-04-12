@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './portfolio.css'
 import p1 from '../../assets/p1.jpg'
@@ -56,7 +57,6 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>Mis trabajos</h5>
-      <h2>Portafolio</h2>
 
       <div className="container portafolio__container">
         {
