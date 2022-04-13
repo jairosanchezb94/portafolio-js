@@ -102,16 +102,15 @@ a {
     transition: var(--transition);
 }
 
-    .btn:hover {
-        background: var(--color-white);
-        color: var(--color-bg);
-        border-color: transparent;
-    }
-
     .btn-primary {
         background: var(--color-primary);
         color: var(--color-bg);
     }
+
+        .btn-primary:hover {
+            background: var(--color-primary-variant);
+            color: var(--color-bg);
+        }
 
 .img {
     display: block;
