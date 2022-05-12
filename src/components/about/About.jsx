@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           <p>
-            ✍🏼 Cuento con nueve meses de experiencia laboral en este sector, 
+            ✍🏼 Cuento con un año de experiencia laboral en este sector, 
             trabajando para diferentes empresas (en Andalucía y Madrid) 
             y he estudiado el Grado Superior DAM, 
             junto a diferentes cursos especializados en front-end (Angular, React, JavaScript, TypeScript, Figma, Illustrator, Maquetación y Web Responsive) 

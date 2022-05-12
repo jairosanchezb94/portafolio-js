@@ -16,7 +16,7 @@ const Services = () => {
           <ul className="labors__list">
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>He realizado control y gestion de cuentas y redes sociales.</p>
+              <p>He realizado control y gestión de cuentas y redes sociales.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
@@ -24,7 +24,7 @@ const Services = () => {
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>Amuento de los seguidores con campañas publicitarias.</p>
+              <p>Aumento de los seguidores con campañas publicitarias.</p>
             </li>
           </ul>
         </article>
@@ -40,11 +40,11 @@ const Services = () => {
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>He realizado algunas consultas a la Api, con las diferentes maneras en Angular y JavaScript puro.</p>
+              <p>He realizado algunas consultas a la API, con las diferentes maneras en Angular y JavaScript puro.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>De la parte de Angular, manejo de eventos click y implementación de *ngIf y *ngFor.</p>
+              <p>De la parte de Angular, manejo de eventos, click e implementación de *ngIf y *ngFor.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
@@ -56,7 +56,7 @@ const Services = () => {
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>De la parte de React, introducion en esta libreria, maquietación de web, asi como una base en Redux</p>
+              <p>De la parte de React, introducción en esta librería, maquetación de web, así como una base en Redux</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
@@ -84,11 +84,11 @@ const Services = () => {
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>Creacion y consulta de base de datos con MySQL y phpmyandmin.</p>
+              <p>Creación y consulta de base de datos con MySQL y phpmyandmin.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>Uso de herramientas como eclipse Netbeans.</p>
+              <p>Uso de herramientas como eclipse NetBeans.</p>
             </li>
           </ul>
         </article>

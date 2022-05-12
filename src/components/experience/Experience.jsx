@@ -5,7 +5,7 @@ import {BsBookmarkCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
    <section id="experience">
-      <h2>Mi Experiecia</h2>
+      <h2>Mi Experiencia</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
