@@ -36,15 +36,15 @@ const Services = () => {
           <ul className="labors__list">
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>He realizado procesos de maquetación de la web.</p>
+              <p>He realizado procesos de maquetación web.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>He realizado algunas consultas a la API, con las diferentes maneras en Angular y JavaScript puro.</p>
+              <p>He realizado consultas a la API, en Angular, React, JavaScript.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>De la parte de Angular, manejo de eventos, click e implementación de *ngIf y *ngFor.</p>
+              <p>De la parte de Angular, manejo de eventos, click e implementación de *ngIf y *ngFor junto a ciclo de vida del componente.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
