@@ -70,7 +70,7 @@ const Services = () => {
         </article>
         <article className="labors">
           <div className="labors__head">
-            <h3>Backend Develope</h3>
+            <h3>Backend Developer</h3>
           </div>
 
           <ul className="labors__list">
