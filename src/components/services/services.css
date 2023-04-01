@@ -44,6 +44,7 @@
 .labors__list-icon {
     color: var(--color-primary);
     margin-top: 2px;
+    width: 50px;
 }
 
 .labors__list p {

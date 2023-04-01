@@ -18,22 +18,22 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experiencia</h5>
-              <small>9 meses</small>
+              <small>2 años</small>
             </article>
 
             <article className="about__card">
               <BsGithub className="about__icon" />
               <h5>Proyectos finalizados </h5>
-              <small>30 Github</small>
+              <small>46 Github</small>
             </article>
 
           </div>
 
           <p>
-            ✍🏼 Cuento con un año de experiencia laboral en este sector, 
+            ✍🏼 Cuento con 2 años de experiencia laboral en este sector, 
             trabajando para diferentes empresas (en Andalucía y Madrid) 
             y he estudiado el Grado Superior DAM, 
-            junto a diferentes cursos especializados en front-end (Angular, React, JavaScript, TypeScript, Figma, Illustrator, Maquetación y Web Responsive) 
+            junto a diferentes cursos especializados en front-end (Angular, React, Lit-Element, JavaScript, TypeScript, Figma, Illustrator, Maquetación y Web Responsive) 
             los cuales me han dado herramientas y habilidades claves para desarrollar mi trabajo.
           </p>
           <p>

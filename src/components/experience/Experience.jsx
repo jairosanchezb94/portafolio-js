@@ -64,7 +64,7 @@ const Experience = () => {
               <BsBookmarkCheckFill className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Bajo</small>
+                <small className="text-light">Medio</small>
               </div>
             </article>
           </div>

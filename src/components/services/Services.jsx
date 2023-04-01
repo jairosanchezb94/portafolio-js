@@ -36,11 +36,11 @@ const Services = () => {
           <ul className="labors__list">
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>He realizado procesos de maquetación web.</p>
+              <p>He realizado procesos de maquetación interfaces con responsive desing, dark theme y accesibilidad web y mobile, SASS, SCSS, CSS, OOCSS, SMACSS y BEM.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>He realizado consultas a la API, en Angular, React, JavaScript.</p>
+              <p>He realizado consultas a la API REST, en Angular, React, JavaScript, Lit Element, JavaScript, React con Hooks, Testing, CSS 3, Sass, HTML5, BBVA Cells, Typscript.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
@@ -56,15 +56,11 @@ const Services = () => {
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>De la parte de React, introducción en esta librería, maquetación de web, así como una base en Redux</p>
+              <p>De la parte de React, introducción en esta librería, maquetación de web, así como una base en Redux.</p>
             </li>
             <li>
               <GoCheck className="labors__list-icon"/>
-              <p>Implementación de  Web Responsive</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Entre otras cosas más...</p>
+              <p>Desarrollo Bitbucket, Git, Bamboo, Jira y sistema de implantación Devops Experiencia equipo ágil autoorganizado.</p>
             </li>
           </ul>
         </article>
