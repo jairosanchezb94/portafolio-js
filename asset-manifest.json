@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portafolio-js/static/css/main.2a0613b8.css",
-    "main.js": "/portafolio-js/static/js/main.67bf6373.js",
-    "static/media/Sanchez Bejar, Jairo.pdf": "/portafolio-js/static/media/Sanchez Bejar, Jairo.73abed85b8c528272811.pdf",
+    "main.css": "/portafolio-js/static/css/main.aad6fbea.css",
+    "main.js": "/portafolio-js/static/js/main.236c4fd2.js",
+    "static/media/Sanchez Bejar, Jairo.pdf": "/portafolio-js/static/media/Sanchez Bejar, Jairo.183ed8d7617b184f073d.pdf",
     "static/media/black-orchid.png": "/portafolio-js/static/media/black-orchid.2267747282bb1ad7c887.png",
     "static/media/perfil.png": "/portafolio-js/static/media/perfil.427e5e68908ab13ec073.png",
     "static/media/p1.jpg": "/portafolio-js/static/media/p1.ae84dd8fe9e6cc739dcc.jpg",
     "static/media/p3.jpg": "/portafolio-js/static/media/p3.864841a646ea2adcdddf.jpg",
     "index.html": "/portafolio-js/index.html",
-    "main.2a0613b8.css.map": "/portafolio-js/static/css/main.2a0613b8.css.map",
-    "main.67bf6373.js.map": "/portafolio-js/static/js/main.67bf6373.js.map"
+    "main.aad6fbea.css.map": "/portafolio-js/static/css/main.aad6fbea.css.map",
+    "main.236c4fd2.js.map": "/portafolio-js/static/js/main.236c4fd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a0613b8.css",
-    "static/js/main.67bf6373.js"
+    "static/css/main.aad6fbea.css",
+    "static/js/main.236c4fd2.js"
   ]
 }
