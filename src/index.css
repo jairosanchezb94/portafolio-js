@@ -11,18 +11,18 @@
 }
 
 :root {
-  --color-bg: #405744;
-  --color-bg-variant: #554e3b;
-  --color-primary: #81713a;
-  --color-primary-variant: #D9D9D9;
-  --color-white: #ffffff;
-  --color-light: #D9D9D9;
+    --color-bg: #404040; /* Beige claro */
+    --color-bg-variant: #989184; /* Beige grisáceo oscuro */
+    --color-primary: #FFFFFF; /* Blanco */
+    --color-primary-variant: #C5BEB6; /* Beige rosado claro */
+    --color-white: #E9E8E6; /* Gris oscuro */
+    --color-light: #D3D2CF; /* Gris claro */
 
-  --transition: all 400ms ease;
+    --transition: all 400ms ease;
 
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 }
 
 html {

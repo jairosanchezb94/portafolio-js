@@ -22,15 +22,10 @@ const Nav = () => {
         className={activeNav === '#about' ? 'active' : ''}>
         <AiOutlineUser/>
       </a>
-      <a href="#experience"
-        onClick={() => setActiveNav('#experience')}
-        className={activeNav === '#experience' ? 'active' : ''}>
-        <BiBookAlt/>
-      </a>
       <a href="#services"
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}>
-        <RiServiceLine/>
+        <BiBookAlt/>
       </a>
       <a href="#contact"
         onClick={() => setActiveNav('#contact')}
@@ -41,4 +36,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;

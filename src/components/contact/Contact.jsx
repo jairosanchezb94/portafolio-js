@@ -22,7 +22,6 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>Contacto</h2> 
-
       <div className="container contact__container"> 
         <div className="contact__options">
           <article className="contact__option">
@@ -35,7 +34,7 @@ const Contact = () => {
             <BsLinkedin className="contact__option-icon"/>
             <h3>Linkedin</h3>
             <h5>Jairo Sánchez</h5>
-            <a href="https://www.linkedin.com/in/jairo-sanchez-64416a12b/" target="_blank">Conectar</a>
+            <a href="https://www.linkedin.com/in/jairo-sanchez-bejar/" target="_blank">Conectar</a>
           </article>
           <article className="contact__option">
             <IoLogoWhatsapp className="contact__option-icon"/>
@@ -49,4 +48,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

@@ -9,7 +9,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h1>Jairo Sánchez</h1>
-        <h2 className="text-light">Frontend Developer</h2>
+        <h2 className="text-light">Front-end Developer</h2>
         <CTA />
         <HeaderSocials />
 
@@ -22,4 +22,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

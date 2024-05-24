@@ -1,90 +1,81 @@
 import React from 'react'
 import './services.css'
-import {GoCheck} from 'react-icons/go'
 
 const Services = () => {
   return (
     <section id="services">
       <h2>Labores realizadas</h2>
-
       <div className="container labors__container">
-        <article className="labors">
-          <div className="labors__head">
-            <h3>Diseñador Redes Sociales</h3>
-          </div>
-
-          <ul className="labors__list">
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>He realizado control y gestión de cuentas y redes sociales.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>He realizado la creación de las publicaciones.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Aumento de los seguidores con campañas publicitarias.</p>
-            </li>
-          </ul>
-        </article>
         <article className="labors">
           <div className="labors__head">
             <h3>Frontend Developer</h3>
           </div>
-
           <ul className="labors__list">
             <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>He realizado procesos de maquetación interfaces con responsive desing, dark theme y accesibilidad web y mobile, SASS, SCSS, CSS, OOCSS, SMACSS y BEM.</p>
+              <p>
+                Mi experiencia en desarrollo front-end es amplia y diversa, habiendo trabajado en múltiples proyectos utilizando tecnologías como React, Angular, 
+                y JavaScript ES6. Por ejemplo, en mi trabajo reciente para el Santander, estuve a cargo del desarrollo de componentes nuevos y la maquetación utilizando React, 
+                JavaScript, y CSS. Además, en Accenture, me enfoqué en la creación de interfaces responsivas y accesibles, trabajando con HTML5, Sass, y CSS3.
+              </p>
             </li>
+          </ul>
+        </article>
+        {/* <article className="labors">
+          <div className="labors__head">
+            <h3>Backend Developer</h3>
+          </div>
+          <ul className="labors__list">
             <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>He realizado consultas a la API REST, en Angular, React, JavaScript, Lit Element, JavaScript, React con Hooks, Testing, CSS 3, Sass, HTML5, BBVA Cells, Typscript.</p>
+              <p>
+                Realizar tareas en Java.
+                Consultas de datos con Java.
+                Creación y consulta de base de datos con MySQL y phpmyandmin.
+                Uso de herramientas como eclipse NetBeans.
+              </p>
             </li>
+          </ul>
+        </article> */}
+        <article className="labors">
+          <div className="labors__head">
+            <h3>¿Cómo maneja los desafíos en los proyectos de desarrollo?</h3>
+          </div>
+          <ul className="labors__list">
             <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>De la parte de Angular, manejo de eventos, click e implementación de *ngIf y *ngFor junto a ciclo de vida del componente.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>De la parte de Angular, implementación de material angular, creación de componentes custom como ngx-spinner y componentes de diseño de Angular Material. Junto a creación de gráficas.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>De la parte de Angular, Ionic mayormente diseño y adaptación en proyecto de Angular y en conjunto con Material Angular.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>De la parte de React, introducción en esta librería, maquetación de web, así como una base en Redux.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Desarrollo Bitbucket, Git, Bamboo, Jira y sistema de implantación Devops Experiencia equipo ágil autoorganizado.</p>
+              <p>
+                A lo largo de mi carrera, he enfrentado y superado varios desafíos en los proyectos de desarrollo. 
+                Por ejemplo, durante mi tiempo en Accenture, trabajé en la reorganización de un proyecto para BBVA, desarrollando con React Hooks 
+                y gestionando pruebas con herramientas como Jest y Gherkin. Mi capacidad para adaptarme y manejar estructuras jerárquicas y plazos, 
+                una habilidad que perfeccioné durante mis experiencias anteriores en el sector ambiental, ha sido fundamental para superar estos retos.
+              </p>
             </li>
           </ul>
         </article>
         <article className="labors">
           <div className="labors__head">
-            <h3>Backend Developer</h3>
+            <h3>¿Tiene experiencia trabajando en equipo y de forma remota?</h3>
           </div>
-
           <ul className="labors__list">
             <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Realizar tareas en Java.</p>
+              <p>
+                Sí, he tenido la oportunidad de trabajar en equipos ágiles y autoorganizados, tanto de manera presencial como remota. En Accenture, por ejemplo, 
+                participé en un equipo ágil que desarrollaba usando metodologías DevOps y herramientas de colaboración como Git, Bitbucket, y Jira. 
+                Esta experiencia se complementa con mi capacidad de comunicar ideas eficazmente y manejar tareas de forma eficiente, 
+                habilidades que desarrollé en mis roles anteriores y que son esenciales para el éxito en entornos de trabajo colaborativos y remotos.
+              </p>
             </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Consultas de datos con Java.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Creación y consulta de base de datos con MySQL y phpmyandmin.</p>
-            </li>
-            <li>
-              <GoCheck className="labors__list-icon"/>
-              <p>Uso de herramientas como eclipse NetBeans.</p>
+          </ul>
+        </article>
+        <article className="labors">
+          <div className="labors__head">
+            <h3>¿Cómo ha contribuido a la mejora de los procesos de desarrollo en sus roles anteriores?</h3>
+          </div>
+          <ul className="labors__list">
+            <li>              
+              <p>
+                En mis roles anteriores, he contribuido significativamente a la mejora de procesos de desarrollo a través de la implementación de prácticas eficientes y el uso de tecnologías avanzadas. 
+                Por ejemplo, en Digital55, lideré la implementación de Material Angular y la creación de componentes personalizados que mejoraron la funcionalidad y la interfaz de usuario de los proyectos. 
+                Además, mi experiencia en la gestión de proyectos con Jira en Jaraxa ayudó a mejorar la organización y la entrega de proyectos, asegurando una alta calidad y cumplimiento de plazos.
+              </p>
             </li>
           </ul>
         </article>

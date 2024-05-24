@@ -11,7 +11,6 @@ const Footer = () => {
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experiencia</a></li>
         <li><a href="#services">Servicio</a></li>
         <li><a href="#portafolio">Portafolio</a></li>
         <li><a href="#contact">Contacto</a></li>
@@ -30,4 +29,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
