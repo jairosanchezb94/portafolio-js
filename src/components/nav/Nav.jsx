@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {BiBookAlt} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
+import { IoIosCodeWorking } from "react-icons/io";
 import {MdContactPhone} from 'react-icons/md'
 import { useState } from 'react'
 
@@ -22,10 +21,15 @@ const Nav = () => {
         className={activeNav === '#about' ? 'active' : ''}>
         <AiOutlineUser/>
       </a>
-      <a href="#services"
-        onClick={() => setActiveNav('#services')}
-        className={activeNav === '#services' ? 'active' : ''}>
+      <a href="#experience"
+        onClick={() => setActiveNav('#experience')}
+        className={activeNav === '#experience' ? 'active' : ''}>
         <BiBookAlt/>
+      </a>
+      <a href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')}
+        className={activeNav === '#portfolio' ? 'active' : ''}>
+        <IoIosCodeWorking />
       </a>
       <a href="#contact"
         onClick={() => setActiveNav('#contact')}

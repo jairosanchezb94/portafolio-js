@@ -1,9 +1,9 @@
 import React from 'react'
-import './services.css'
+import './experience.css'
 
-const Services = () => {
+const Experience = () => {
   return (
-    <section id="services">
+    <section id="experience">
       <h2>Labores realizadas</h2>
       <div className="container labors__container">
         <article className="labors">
@@ -84,4 +84,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Experience;

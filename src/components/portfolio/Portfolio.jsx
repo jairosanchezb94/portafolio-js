@@ -56,7 +56,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>Mis trabajos</h2>
+      <h2>Proyectos</h2>
       <div className="container portafolio__container">
         {
           data.map(({id, image, title, github, demo}) => {
@@ -79,4 +79,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;

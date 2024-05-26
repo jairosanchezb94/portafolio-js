@@ -10,9 +10,9 @@ const Footer = () => {
       <a href="#" className="footer__logo">Jairo Sánchez</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Servicio</a></li>
-        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#about">Sobre Mi</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
 
