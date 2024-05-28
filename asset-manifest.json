@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portafolio-js/static/css/main.0519a48e.css",
-    "main.js": "/portafolio-js/static/js/main.de7d7083.js",
+    "main.js": "/portafolio-js/static/js/main.400af257.js",
     "static/media/Sanchez Bejar, Jairo.pdf": "/portafolio-js/static/media/Sanchez Bejar, Jairo.183ed8d7617b184f073d.pdf",
     "static/media/black-orchid.png": "/portafolio-js/static/media/black-orchid.2267747282bb1ad7c887.png",
     "static/media/perfil.png": "/portafolio-js/static/media/perfil.427e5e68908ab13ec073.png",
     "index.html": "/portafolio-js/index.html",
     "main.0519a48e.css.map": "/portafolio-js/static/css/main.0519a48e.css.map",
-    "main.de7d7083.js.map": "/portafolio-js/static/js/main.de7d7083.js.map"
+    "main.400af257.js.map": "/portafolio-js/static/js/main.400af257.js.map"
   },
   "entrypoints": [
     "static/css/main.0519a48e.css",
-    "static/js/main.de7d7083.js"
+    "static/js/main.400af257.js"
   ]
 }
