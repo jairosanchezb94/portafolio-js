@@ -5,19 +5,9 @@ import './contact.css'
 import {MdOutlineMailOutline} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io'
-//import { useRef } from 'react';
-//import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
-  /*const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_hpphm9z', 'template_9u1w1f5', form.current, 'user_BKlgbUIsPhoSurhyvv6Y0')
-    e.target.reset();
-  };*/
 
   return (
     <section id="contact">
