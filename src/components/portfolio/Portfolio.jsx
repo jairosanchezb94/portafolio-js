@@ -3,8 +3,8 @@ import './portfolio.css'
 
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
-    const token = process.env.REACT_APP_GITHUB_TOKEN;
-    const username = process.env.REACT_APP_GITHUB_USERNAME;
+    const token = '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';
+    const username = 'jairosanchezb94';
 
     useEffect(() => {
       const fetchRepos = async () => {
