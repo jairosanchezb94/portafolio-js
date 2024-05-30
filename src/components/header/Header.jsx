@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import ModeSwitch from '../modeswitch/ModeSwitch'
 import CTA from './CTA'
 import ME from '../../assets/perfil.png'
 import HeaderSocials from './HeaderSocials'
@@ -7,6 +8,7 @@ import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
     <header>
+      <ModeSwitch />
       <div className="container header__container">
         <h1>Jairo Sánchez</h1>
         <h2 className="text-light">Front-end Developer</h2>

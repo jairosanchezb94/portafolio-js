@@ -52,11 +52,13 @@
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        padding-bottom: 100px;
     }
 }
 
 @media screen and (min-width: 480px) {
     .container.contact__container{
         width: var(--container-width-sm);
+        padding-bottom: 100px;
     }
 }

@@ -1,0 +1,61 @@
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .toggle-container.scrolling {
+    opacity: 0.5;
+  }
+  
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    background-color: var(--color-bg-variant);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 60px;
+    transform: scale(1);
+  }
+  
+  .ball {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .label .ball {
+    transform: translateX(34px);
+  }
+  
+  .label:active .ball {
+    transform: scale(1.1);
+  }
+  
+  .moon-icon {
+    color: #e7c53d;
+    font-size: 16px;
+  }
+  
+  .sun-icon {
+    color: #efac41;
+    font-size: 16px;
+  }
+  
