@@ -11,18 +11,46 @@
 }
 
 :root {
-    --color-bg: #404040; /* Beige claro */
-    --color-bg-variant: #989184; /* Beige grisáceo oscuro */
-    --color-primary: #FFFFFF; /* Blanco */
-    --color-primary-variant: #C5BEB6; /* Beige rosado claro */
-    --color-white: #E9E8E6; /* Gris oscuro */
-    --color-light: #D3D2CF; /* Gris claro */
+    --color-bg-dark: #404040;
+    --color-bg-variant-dark: #989184;
+    --color-primary-dark: #FFFFFF;
+    --color-primary-variant-dark: #C5BEB6;
+    --color-white-dark: #E9E8E6;
+    --color-light-dark: #D3D2CF;
+    --bg-image-dark: url('../src/assets/black-orchid.png');
+
+    --color-bg-light: #f7f6f4;
+    --color-bg-variant-light: #d4c4a8;
+    --color-primary-light: #242424;
+    --color-primary-variant-light: #989184;
+    --color-white-light: #000000;
+    --color-light-light: #333333;
+    --bg-image-light: url('../src/assets/white-orchid.png');
 
     --transition: all 400ms ease;
-
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+}
+
+.light-mode {
+    --color-bg: var(--color-bg-light);
+    --color-bg-variant: var(--color-bg-variant-light);
+    --color-primary: var(--color-primary-light);
+    --color-primary-variant: var(--color-primary-variant-light);
+    --color-white: var(--color-white-light);
+    --color-light: var(--color-light-light);
+    --bg-image: var(--bg-image-light);
+}
+
+.dark-mode {
+    --color-bg: var(--color-bg-dark);
+    --color-bg-variant: var(--color-bg-variant-dark);
+    --color-primary: var(--color-primary-dark);
+    --color-primary-variant: var(--color-primary-variant-dark);
+    --color-white: var(--color-white-dark);
+    --color-light: var(--color-light-dark);
+    --bg-image: var(--bg-image-dark);
 }
 
 html {
@@ -33,38 +61,38 @@ html {
   display: none;
 }
 
-body {
+header {
+    background: var(--color-bg);
+    color: var(--color-white);
+    background-image: var(--bg-image);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {      
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
     font-family: "Roboto", sans-serif;
     font-display: swap;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.5;
-    background-image: url(../src/assets/black-orchid.png);
-}
-
-/*
- * General styles
- */
-
- .container {
-     width: var(--container-width-lg);
-     margin: 0 auto;
- }
-
- h1,
-    h2,
-    h3,
-    h4,
-    h5{      
-        font-weight: 600;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-section {
-    margin-top: 8rem;
+    background-image: var(--bg-image);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 section > h2,
@@ -76,6 +104,7 @@ section > h5 {
 section > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
+    padding-top: 100px;
 }
 
 .text-light {
@@ -87,9 +116,9 @@ a {
     transition: var(--transition);
 }
 
-    a:hover {
-        color: var(--color-white);
-    }
+a:hover {
+    color: var(--color-white);
+}
 
 .btn {
     width: max-content;
@@ -102,15 +131,15 @@ a {
     transition: var(--transition);
 }
 
-    .btn-primary {
-        background: var(--color-primary);
-        color: var(--color-bg);
-    }
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
 
-        .btn-primary:hover {
-            background: var(--color-primary-variant);
-            color: var(--color-bg);
-        }
+.btn-primary:hover {
+    background: var(--color-primary-variant);
+    color: var(--color-bg);
+}
 
 .img {
     display: block;
@@ -119,31 +148,14 @@ a {
     object-fit: cover;
 }
 
-
-/*
- * Media queries
- */
-
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
-
-    section {
-        margin-top: 4rem;
-    }
 }
-
 
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
-
-    section > h2{
-        margin-bottom: 2rem;
-    }
 }
-    
-
-

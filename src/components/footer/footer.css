@@ -3,7 +3,6 @@ footer {
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem;
 }
 
 footer a {
@@ -58,9 +57,5 @@ footer a {
     .permalink {
         flex-direction: column;
         gap: 1.5rem;
-    }
-
-    .footer__social {
-        margin-bottom: 2.5rem;
     }
 }
