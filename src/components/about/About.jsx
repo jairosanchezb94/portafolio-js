@@ -24,7 +24,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            ✍🏼 ¡Con casi tres años de experiencia en desarrollo Front-end, 
+            ✍🏼 ¡Con tres años de experiencia en desarrollo Front-end, 
             me especializo en crear interfaces de usuario interactivas y eficientes. 
             Resido en Andalucía y he colaborado con diversas empresas en Madrid. 
             Mi formación incluye un Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) y 
